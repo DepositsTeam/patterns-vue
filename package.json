@@ -1,7 +1,18 @@
 {
-  "name": "deposits-patterns",
+  "name": "@deposits/patterns-vue",
   "version": "0.0.0",
-  "private": true,
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/deposits-patterns-vue.umd.js",
+  "module": "./dist/deposits-patterns-vue.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/deposits-patterns-vue.es.js",
+      "require": "./dist/deposits-patterns-vue.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,7 +24,8 @@
   },
   "peerDependencies": {
     "@deposits/ui-kit-vue": "^0.0.544",
-    "vue": "^3.x"
+    "vue": "^3.x",
+    "vue-router": "^4.x"
   },
   "devDependencies": {
     "@deposits/ui-kit-vue": "^0.0.544",
@@ -37,7 +49,8 @@
     "rollup-plugin-bundle-scss": "^0.1.3",
     "sass": "^1.69.4",
     "storybook": "^7.5.1",
-    "vite": "^4.4.9"
+    "vite": "^4.4.9",
+    "vue-router": "^4.2.5"
   },
   "license": "BSL-1.0",
   "author": "Deposits",

@@ -1,0 +1,3 @@
+- **20th October 2023 - Eric McWinNEr 😴**
+  - Feature: Created and initialized repository and dependencies
+  - Feature: Created LoginScreen pattern
