@@ -1,35 +1,20 @@
-# deposits-patterns
+# Deposits Vue Patterns
 
-This template should help get you started developing with Vue 3 in Vite.
+The Deposits Vue Patterns is a collection of reusable UI fintech patterns built on our [Vue UI Kit](https://github.com/DepositsTeam/ui-kit-vue) that can be used to build out your fintech applications. It includes a lot of the basics as well as amazing patterns tied to Fintech applications that can help drastically reduce development time and improve consistency in your fintech applications.
 
-## Recommended IDE Setup
+## 📖 Demo Links
+###  Storybook Demo Link
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+https://patterns.deposits.dev/storybook/vue
 
-## Customize configuration
+###  Figma UI Link
+https://www.figma.com/file/Wi9wPkCWJIbzyriC0oKAW9/Deposits-UI-Kit%2FDesign-System
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Documentation
+https://doc.api.deposits.dev/docs/ui-kit/vue
 
-## Project Setup
+## Getting Started with Deposits Vue Patterns
+#### `npm install @deposits/patterns-vue`
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Getting Started
+For more information on how to import and use our components, visit our [Getting Started Guide](https://doc.api.deposits.dev/docs/ui-kit/vue/getting-started)
